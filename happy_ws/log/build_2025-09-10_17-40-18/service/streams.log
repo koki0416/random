@@ -1,0 +1,36 @@
+[2.932s] Invoking command in '/home/mimi/ran/random/happy_ws/src/service': PYTHONPATH=/home/mimi/ran/random/happy_ws/build/service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mimi/ran/random/happy_ws/install/service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service build --build-base /home/mimi/ran/random/happy_ws/build/service/build install --record /home/mimi/ran/random/happy_ws/build/service/install.log --single-version-externally-managed install_data
+[3.767s] running egg_info
+[3.769s] creating ../../build/service/service.egg-info
+[3.772s] writing ../../build/service/service.egg-info/PKG-INFO
+[3.773s] writing dependency_links to ../../build/service/service.egg-info/dependency_links.txt
+[3.773s] writing entry points to ../../build/service/service.egg-info/entry_points.txt
+[3.773s] writing requirements to ../../build/service/service.egg-info/requires.txt
+[3.773s] writing top-level names to ../../build/service/service.egg-info/top_level.txt
+[3.778s] writing manifest file '../../build/service/service.egg-info/SOURCES.txt'
+[3.784s] reading manifest file '../../build/service/service.egg-info/SOURCES.txt'
+[3.787s] writing manifest file '../../build/service/service.egg-info/SOURCES.txt'
+[3.787s] running build
+[3.788s] running build_py
+[3.788s] creating /home/mimi/ran/random/happy_ws/build/service/build
+[3.790s] creating /home/mimi/ran/random/happy_ws/build/service/build/lib
+[3.791s] creating /home/mimi/ran/random/happy_ws/build/service/build/lib/service
+[3.791s] copying service/server.py -> /home/mimi/ran/random/happy_ws/build/service/build/lib/service
+[3.793s] copying service/__init__.py -> /home/mimi/ran/random/happy_ws/build/service/build/lib/service
+[3.795s] running install
+[3.795s] running install_lib
+[3.798s] creating /home/mimi/ran/random/happy_ws/install/service/lib/python3.10/site-packages/service
+[3.799s] copying /home/mimi/ran/random/happy_ws/build/service/build/lib/service/server.py -> /home/mimi/ran/random/happy_ws/install/service/lib/python3.10/site-packages/service
+[3.800s] copying /home/mimi/ran/random/happy_ws/build/service/build/lib/service/__init__.py -> /home/mimi/ran/random/happy_ws/install/service/lib/python3.10/site-packages/service
+[3.801s] byte-compiling /home/mimi/ran/random/happy_ws/install/service/lib/python3.10/site-packages/service/server.py to server.cpython-310.pyc
+[3.803s] byte-compiling /home/mimi/ran/random/happy_ws/install/service/lib/python3.10/site-packages/service/__init__.py to __init__.cpython-310.pyc
+[3.804s] running install_data
+[3.805s] creating /home/mimi/ran/random/happy_ws/install/service/share/ament_index
+[3.805s] creating /home/mimi/ran/random/happy_ws/install/service/share/ament_index/resource_index
+[3.807s] creating /home/mimi/ran/random/happy_ws/install/service/share/ament_index/resource_index/packages
+[3.808s] copying resource/service -> /home/mimi/ran/random/happy_ws/install/service/share/ament_index/resource_index/packages
+[3.809s] copying package.xml -> /home/mimi/ran/random/happy_ws/install/service/share/service
+[3.809s] running install_egg_info
+[3.814s] Copying ../../build/service/service.egg-info to /home/mimi/ran/random/happy_ws/install/service/lib/python3.10/site-packages/service-0.0.0-py3.10.egg-info
+[3.822s] running install_scripts
+[3.878s] writing list of installed files to '/home/mimi/ran/random/happy_ws/build/service/install.log'
+[3.934s] Invoked command in '/home/mimi/ran/random/happy_ws/src/service' returned '0': PYTHONPATH=/home/mimi/ran/random/happy_ws/build/service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mimi/ran/random/happy_ws/install/service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service build --build-base /home/mimi/ran/random/happy_ws/build/service/build install --record /home/mimi/ran/random/happy_ws/build/service/install.log --single-version-externally-managed install_data

@@ -1,0 +1,20 @@
+[1.791s] Invoking command in '/home/mimi/ran/random/happy_ws/build/service_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/ran/random/happy_ws/build/service_msgs -- -j8 -l8
+[2.275s] Invoked command in '/home/mimi/ran/random/happy_ws/build/service_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/ran/random/happy_ws/build/service_msgs -- -j8 -l8
+[2.321s] Invoking command in '/home/mimi/ran/random/happy_ws/build/service_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mimi/ran/random/happy_ws/build/service_msgs
+[2.363s] -- Install configuration: ""
+[2.365s] -- Up-to-date: /home/mimi/ran/random/happy_ws/install/service_msgs/share/ament_index/resource_index/package_run_dependencies/service_msgs
+[2.365s] -- Up-to-date: /home/mimi/ran/random/happy_ws/install/service_msgs/share/ament_index/resource_index/parent_prefix_path/service_msgs
+[2.366s] -- Up-to-date: /home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/environment/ament_prefix_path.sh
+[2.366s] -- Up-to-date: /home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/environment/ament_prefix_path.dsv
+[2.367s] -- Up-to-date: /home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/environment/path.sh
+[2.367s] -- Up-to-date: /home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/environment/path.dsv
+[2.368s] -- Up-to-date: /home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/local_setup.bash
+[2.368s] -- Up-to-date: /home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/local_setup.sh
+[2.369s] -- Up-to-date: /home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/local_setup.zsh
+[2.370s] -- Up-to-date: /home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/local_setup.dsv
+[2.370s] -- Installing: /home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/package.dsv
+[2.371s] -- Up-to-date: /home/mimi/ran/random/happy_ws/install/service_msgs/share/ament_index/resource_index/packages/service_msgs
+[2.372s] -- Up-to-date: /home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgsConfig.cmake
+[2.372s] -- Up-to-date: /home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgsConfig-version.cmake
+[2.372s] -- Up-to-date: /home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/package.xml
+[2.381s] Invoked command in '/home/mimi/ran/random/happy_ws/build/service_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mimi/ran/random/happy_ws/build/service_msgs

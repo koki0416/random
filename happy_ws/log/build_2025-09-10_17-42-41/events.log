@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000478] (random) JobQueued: {'identifier': 'random', 'dependencies': OrderedDict()}
+[0.000625] (service) JobQueued: {'identifier': 'service', 'dependencies': OrderedDict()}
+[0.000803] (service_msgs) JobQueued: {'identifier': 'service_msgs', 'dependencies': OrderedDict()}
+[0.000901] (random) JobStarted: {'identifier': 'random'}
+[0.025681] (service) JobStarted: {'identifier': 'service'}
+[0.043583] (service_msgs) JobStarted: {'identifier': 'service_msgs'}
+[0.096676] (-) TimerEvent: {}
+[0.197360] (-) TimerEvent: {}
+[0.298103] (-) TimerEvent: {}
+[0.398818] (-) TimerEvent: {}
+[0.499615] (-) TimerEvent: {}
+[0.600460] (-) TimerEvent: {}
+[0.701282] (-) TimerEvent: {}
+[0.802044] (-) TimerEvent: {}
+[0.902705] (-) TimerEvent: {}
+[1.005092] (-) TimerEvent: {}
+[1.108433] (-) TimerEvent: {}
+[1.209192] (-) TimerEvent: {}
+[1.309926] (-) TimerEvent: {}
+[1.410891] (-) TimerEvent: {}
+[1.497569] (service_msgs) JobProgress: {'identifier': 'service_msgs', 'progress': 'cmake'}
+[1.503463] (service_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/mimi/ran/random/happy_ws/src/service_msgs', '-DCMAKE_INSTALL_PREFIX=/home/mimi/ran/random/happy_ws/install/service_msgs'], 'cwd': '/home/mimi/ran/random/happy_ws/build/service_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://wwwproxy.kanazawa-it.ac.jp:8080/'), ('LANGUAGE', 'ja:en_US:en'), ('USER', 'mimi'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mimi'), ('OLDPWD', '/home/mimi/ran/random/happy_ws/src/service_msgs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2007'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://wwwproxy.kanazawa-it.ac.jp:8080/'), ('COLCON_PREFIX_PATH', '/home/mimi/edu_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mimi'), ('http_proxy', 'http://wwwproxy.kanazawa-it.ac.jp:8080/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mimi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mimi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/home:@/tmp/.ICE-unix/1790,unix/home:/tmp/.ICE-unix/1790'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5c91937a_fec6_4dc3_ac43_d503042b5311'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K652B3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mimi/ran/random/happy_ws/build/service_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://wwwproxy.kanazawa-it.ac.jp:8080/'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.522845] (-) TimerEvent: {}
+[1.565084] (service_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.623756] (-) TimerEvent: {}
+[1.724327] (-) TimerEvent: {}
+[1.824921] (-) TimerEvent: {}
+[1.925611] (-) TimerEvent: {}
+[1.982847] (service_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.987577] (service_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.996824] (service_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.025834] (-) TimerEvent: {}
+[2.092037] (service_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.126192] (-) TimerEvent: {}
+[2.226803] (-) TimerEvent: {}
+[2.327813] (-) TimerEvent: {}
+[2.428763] (-) TimerEvent: {}
+[2.505690] (random) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/random', 'build', '--build-base', '/home/mimi/ran/random/happy_ws/build/random/build', 'install', '--record', '/home/mimi/ran/random/happy_ws/build/random/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mimi/ran/random/happy_ws/src/random', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://wwwproxy.kanazawa-it.ac.jp:8080/', 'LANGUAGE': 'ja:en_US:en', 'USER': 'mimi', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mimi', 'OLDPWD': '/home/mimi/ran/random/happy_ws/src/service_msgs', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '2007', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://wwwproxy.kanazawa-it.ac.jp:8080/', 'COLCON_PREFIX_PATH': '/home/mimi/edu_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mimi', 'http_proxy': 'http://wwwproxy.kanazawa-it.ac.jp:8080/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mimi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mimi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/home:@/tmp/.ICE-unix/1790,unix/home:/tmp/.ICE-unix/1790', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5c91937a_fec6_4dc3_ac43_d503042b5311', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.K652B3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mimi/ran/random/happy_ws/build/random', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mimi/ran/random/happy_ws/build/random/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mimi/ran/random/happy_ws/install/random/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'HTTP_PROXY': 'http://wwwproxy.kanazawa-it.ac.jp:8080/', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.528941] (-) TimerEvent: {}
+[2.613449] (service) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/service', 'build', '--build-base', '/home/mimi/ran/random/happy_ws/build/service/build', 'install', '--record', '/home/mimi/ran/random/happy_ws/build/service/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mimi/ran/random/happy_ws/src/service', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://wwwproxy.kanazawa-it.ac.jp:8080/', 'LANGUAGE': 'ja:en_US:en', 'USER': 'mimi', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mimi', 'OLDPWD': '/home/mimi/ran/random/happy_ws/src/service_msgs', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '2007', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://wwwproxy.kanazawa-it.ac.jp:8080/', 'COLCON_PREFIX_PATH': '/home/mimi/edu_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mimi', 'http_proxy': 'http://wwwproxy.kanazawa-it.ac.jp:8080/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mimi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mimi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/home:@/tmp/.ICE-unix/1790,unix/home:/tmp/.ICE-unix/1790', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5c91937a_fec6_4dc3_ac43_d503042b5311', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.K652B3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mimi/ran/random/happy_ws/build/service', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mimi/ran/random/happy_ws/build/service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mimi/ran/random/happy_ws/install/service/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'HTTP_PROXY': 'http://wwwproxy.kanazawa-it.ac.jp:8080/', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.629526] (-) TimerEvent: {}
+[2.730289] (-) TimerEvent: {}
+[2.782621] (service_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.783598] (service_msgs) StdoutLine: {'line': b'See also "/home/mimi/ran/random/happy_ws/build/service_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[2.783865] (service_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[2.784286] (service_msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[2.784520] (service_msgs) StderrLine: {'line': b'  service_msgs --arguments-file\n'}
+[2.784721] (service_msgs) StderrLine: {'line': b'  /home/mimi/ran/random/happy_ws/build/service_msgs/rosidl_adapter__arguments__service_msgs.json\n'}
+[2.784912] (service_msgs) StderrLine: {'line': b'  --output-dir\n'}
+[2.785135] (service_msgs) StderrLine: {'line': b'  /home/mimi/ran/random/happy_ws/build/service_msgs/rosidl_adapter/service_msgs\n'}
+[2.785323] (service_msgs) StderrLine: {'line': b'  --output-file\n'}
+[2.785507] (service_msgs) StderrLine: {'line': b'  /home/mimi/ran/random/happy_ws/build/service_msgs/rosidl_adapter/service_msgs.idls)\n'}
+[2.785696] (service_msgs) StderrLine: {'line': b'  returned error code 1:\n'}
+[2.785881] (service_msgs) StderrLine: {'line': b'\n'}
+[2.786096] (service_msgs) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.786350] (service_msgs) StderrLine: {'line': b'\n'}
+[2.786554] (service_msgs) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[2.786743] (service_msgs) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[2.786928] (service_msgs) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[2.787131] (service_msgs) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[2.787322] (service_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[2.787510] (service_msgs) StderrLine: {'line': b'      sys.exit(main())\n'}
+[2.787695] (service_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[2.787882] (service_msgs) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[2.788118] (service_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[2.788396] (service_msgs) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[2.788625] (service_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[2.788834] (service_msgs) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[2.789147] (service_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string\n'}
+[2.789373] (service_msgs) StderrLine: {'line': b'      request_message = parse_message_string(\n'}
+[2.789582] (service_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string\n'}
+[2.789797] (service_msgs) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[2.790126] (service_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__\n'}
+[2.790411] (service_msgs) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[2.790630] (service_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__\n'}
+[2.790855] (service_msgs) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[2.791105] (service_msgs) StderrLine: {'line': b'\n'}
+[2.791312] (service_msgs) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'random_Request' is an invalid\n"}
+[2.791510] (service_msgs) StderrLine: {'line': b"  message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[2.791708] (service_msgs) StderrLine: {'line': b'\n'}
+[2.791899] (service_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.792261] (service_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[2.792513] (service_msgs) StderrLine: {'line': b'  CMakeLists.txt:14 (rosidl_generate_interfaces)\n'}
+[2.792738] (service_msgs) StderrLine: {'line': b'\n'}
+[2.792983] (service_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[2.801061] (service_msgs) CommandEnded: {'returncode': 1}
+[2.830516] (-) TimerEvent: {}
+[2.872702] (service_msgs) JobEnded: {'identifier': 'service_msgs', 'rc': 1}
+[2.930768] (-) TimerEvent: {}
+[3.031504] (-) TimerEvent: {}
+[3.132246] (-) TimerEvent: {}
+[3.232829] (-) TimerEvent: {}
+[3.261847] (random) StdoutLine: {'line': b'running egg_info\n'}
+[3.265075] (random) StdoutLine: {'line': b'writing ../../build/random/random.egg-info/PKG-INFO\n'}
+[3.265625] (random) StdoutLine: {'line': b'writing dependency_links to ../../build/random/random.egg-info/dependency_links.txt\n'}
+[3.265816] (random) StdoutLine: {'line': b'writing entry points to ../../build/random/random.egg-info/entry_points.txt\n'}
+[3.266310] (random) StdoutLine: {'line': b'writing requirements to ../../build/random/random.egg-info/requires.txt\n'}
+[3.267116] (random) StdoutLine: {'line': b'writing top-level names to ../../build/random/random.egg-info/top_level.txt\n'}
+[3.273346] (random) StdoutLine: {'line': b"reading manifest file '../../build/random/random.egg-info/SOURCES.txt'\n"}
+[3.275148] (random) StdoutLine: {'line': b"writing manifest file '../../build/random/random.egg-info/SOURCES.txt'\n"}
+[3.275544] (random) StdoutLine: {'line': b'running build\n'}
+[3.275645] (random) StdoutLine: {'line': b'running build_py\n'}
+[3.275972] (random) StdoutLine: {'line': b'running install\n'}
+[3.276739] (random) StdoutLine: {'line': b'running install_lib\n'}
+[3.280617] (random) StdoutLine: {'line': b'running install_data\n'}
+[3.281149] (random) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.286398] (random) StdoutLine: {'line': b"removing '/home/mimi/ran/random/happy_ws/install/random/lib/python3.10/site-packages/random-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.287358] (random) StdoutLine: {'line': b'Copying ../../build/random/random.egg-info to /home/mimi/ran/random/happy_ws/install/random/lib/python3.10/site-packages/random-0.0.0-py3.10.egg-info\n'}
+[3.290658] (random) StdoutLine: {'line': b'running install_scripts\n'}
+[3.333063] (-) TimerEvent: {}
+[3.341410] (service) StdoutLine: {'line': b'running egg_info\n'}
+[3.343477] (service) StdoutLine: {'line': b'writing ../../build/service/service.egg-info/PKG-INFO\n'}
+[3.345324] (service) StdoutLine: {'line': b'writing dependency_links to ../../build/service/service.egg-info/dependency_links.txt\n'}
+[3.346574] (service) StdoutLine: {'line': b'writing entry points to ../../build/service/service.egg-info/entry_points.txt\n'}
+[3.346786] (service) StdoutLine: {'line': b'writing requirements to ../../build/service/service.egg-info/requires.txt\n'}
+[3.348628] (service) StdoutLine: {'line': b'writing top-level names to ../../build/service/service.egg-info/top_level.txt\n'}
+[3.352287] (service) StdoutLine: {'line': b"reading manifest file '../../build/service/service.egg-info/SOURCES.txt'\n"}
+[3.353716] (random) StdoutLine: {'line': b"writing list of installed files to '/home/mimi/ran/random/happy_ws/build/random/install.log'\n"}
+[3.354241] (service) StdoutLine: {'line': b"writing manifest file '../../build/service/service.egg-info/SOURCES.txt'\n"}
+[3.356795] (service) StdoutLine: {'line': b'running build\n'}
+[3.357205] (service) StdoutLine: {'line': b'running build_py\n'}
+[3.360333] (service) StdoutLine: {'line': b'running install\n'}
+[3.360673] (service) StdoutLine: {'line': b'running install_lib\n'}
+[3.364091] (service) StdoutLine: {'line': b'running install_data\n'}
+[3.367531] (service) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.368767] (service) StdoutLine: {'line': b"removing '/home/mimi/ran/random/happy_ws/install/service/lib/python3.10/site-packages/service-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.371643] (service) StdoutLine: {'line': b'Copying ../../build/service/service.egg-info to /home/mimi/ran/random/happy_ws/install/service/lib/python3.10/site-packages/service-0.0.0-py3.10.egg-info\n'}
+[3.374713] (service) StdoutLine: {'line': b'running install_scripts\n'}
+[3.406150] (random) JobEnded: {'identifier': 'random', 'rc': 'SIGINT'}
+[3.433286] (-) TimerEvent: {}
+[3.441898] (service) StdoutLine: {'line': b"writing list of installed files to '/home/mimi/ran/random/happy_ws/build/service/install.log'\n"}
+[3.489667] (service) JobEnded: {'identifier': 'service', 'rc': 'SIGINT'}
+[3.502440] (-) EventReactorShutdown: {}

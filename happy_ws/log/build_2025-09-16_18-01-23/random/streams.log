@@ -1,0 +1,20 @@
+[3.121s] Invoking command in '/home/mimi/ran/random/happy_ws/src/random': PYTHONPATH=/home/mimi/ran/random/happy_ws/build/random/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mimi/ran/random/happy_ws/install/random/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/random build --build-base /home/mimi/ran/random/happy_ws/build/random/build install --record /home/mimi/ran/random/happy_ws/build/random/install.log --single-version-externally-managed install_data
+[3.973s] running egg_info
+[3.976s] writing ../../build/random/random.egg-info/PKG-INFO
+[3.977s] writing dependency_links to ../../build/random/random.egg-info/dependency_links.txt
+[3.977s] writing entry points to ../../build/random/random.egg-info/entry_points.txt
+[3.978s] writing requirements to ../../build/random/random.egg-info/requires.txt
+[3.979s] writing top-level names to ../../build/random/random.egg-info/top_level.txt
+[3.986s] reading manifest file '../../build/random/random.egg-info/SOURCES.txt'
+[3.990s] writing manifest file '../../build/random/random.egg-info/SOURCES.txt'
+[3.991s] running build
+[3.992s] running build_py
+[3.994s] running install
+[3.994s] running install_lib
+[3.998s] running install_data
+[3.999s] running install_egg_info
+[4.005s] removing '/home/mimi/ran/random/happy_ws/install/random/lib/python3.10/site-packages/random-0.0.0-py3.10.egg-info' (and everything under it)
+[4.005s] Copying ../../build/random/random.egg-info to /home/mimi/ran/random/happy_ws/install/random/lib/python3.10/site-packages/random-0.0.0-py3.10.egg-info
+[4.011s] running install_scripts
+[4.080s] writing list of installed files to '/home/mimi/ran/random/happy_ws/build/random/install.log'
+[4.144s] Invoked command in '/home/mimi/ran/random/happy_ws/src/random' returned '0': PYTHONPATH=/home/mimi/ran/random/happy_ws/build/random/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mimi/ran/random/happy_ws/install/random/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/random build --build-base /home/mimi/ran/random/happy_ws/build/random/build install --record /home/mimi/ran/random/happy_ws/build/random/install.log --single-version-externally-managed install_data

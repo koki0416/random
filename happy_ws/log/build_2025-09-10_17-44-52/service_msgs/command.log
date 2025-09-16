@@ -1,0 +1,6 @@
+Invoking command in '/home/mimi/ran/random/happy_ws/build/service_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mimi/ran/random/happy_ws/src/service_msgs -DCMAKE_INSTALL_PREFIX=/home/mimi/ran/random/happy_ws/install/service_msgs
+Invoked command in '/home/mimi/ran/random/happy_ws/build/service_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mimi/ran/random/happy_ws/src/service_msgs -DCMAKE_INSTALL_PREFIX=/home/mimi/ran/random/happy_ws/install/service_msgs
+Invoking command in '/home/mimi/ran/random/happy_ws/build/service_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/ran/random/happy_ws/build/service_msgs -- -j8 -l8
+Invoked command in '/home/mimi/ran/random/happy_ws/build/service_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/ran/random/happy_ws/build/service_msgs -- -j8 -l8
+Invoking command in '/home/mimi/ran/random/happy_ws/build/service_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mimi/ran/random/happy_ws/build/service_msgs
+Invoked command in '/home/mimi/ran/random/happy_ws/build/service_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mimi/ran/random/happy_ws/build/service_msgs

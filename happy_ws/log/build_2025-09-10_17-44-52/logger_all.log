@@ -1,0 +1,241 @@
+[0.320s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.321s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x756e0f70fe20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x756e0f70f910>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x756e0f70f910>>)
+[0.835s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.835s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.835s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.835s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.836s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mimi/ran/random/happy_ws'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/random) by extensions ['ignore', 'ignore_ament_install']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/random) by extension 'ignore'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/random) by extension 'ignore_ament_install'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/random) by extensions ['colcon_pkg']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/random) by extension 'colcon_pkg'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/random) by extensions ['colcon_meta']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/random) by extension 'colcon_meta'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/random) by extensions ['ros']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/random) by extension 'ros'
+[0.883s] DEBUG:colcon.colcon_core.package_identification:Package 'src/random' with type 'ros.ament_python' and name 'random'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extensions ['ignore', 'ignore_ament_install']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extension 'ignore'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extension 'ignore_ament_install'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extensions ['colcon_pkg']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extension 'colcon_pkg'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extensions ['colcon_meta']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extension 'colcon_meta'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extensions ['ros']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extension 'ros'
+[0.886s] DEBUG:colcon.colcon_core.package_identification:Package 'src/service' with type 'ros.ament_python' and name 'service'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_msgs) by extension 'ignore'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_msgs) by extension 'ignore_ament_install'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_msgs) by extensions ['colcon_pkg']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_msgs) by extension 'colcon_pkg'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_msgs) by extensions ['colcon_meta']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_msgs) by extension 'colcon_meta'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_msgs) by extensions ['ros']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_msgs) by extension 'ros'
+[0.890s] DEBUG:colcon.colcon_core.package_identification:Package 'src/service_msgs' with type 'ros.ament_cmake' and name 'service_msgs'
+[0.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.953s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/mimi/edu_ws/install
+[0.958s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.979s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'random' build argument 'cmake_args' from command line to 'None'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'random' build argument 'cmake_target' from command line to 'None'
+[1.089s] Level 5:colcon.colcon_core.verb:set package 'random' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.089s] Level 5:colcon.colcon_core.verb:set package 'random' build argument 'cmake_clean_cache' from command line to 'False'
+[1.089s] Level 5:colcon.colcon_core.verb:set package 'random' build argument 'cmake_clean_first' from command line to 'False'
+[1.089s] Level 5:colcon.colcon_core.verb:set package 'random' build argument 'cmake_force_configure' from command line to 'False'
+[1.089s] Level 5:colcon.colcon_core.verb:set package 'random' build argument 'ament_cmake_args' from command line to 'None'
+[1.089s] Level 5:colcon.colcon_core.verb:set package 'random' build argument 'catkin_cmake_args' from command line to 'None'
+[1.089s] Level 5:colcon.colcon_core.verb:set package 'random' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.089s] DEBUG:colcon.colcon_core.verb:Building package 'random' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mimi/ran/random/happy_ws/build/random', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mimi/ran/random/happy_ws/install/random', 'merge_install': False, 'path': '/home/mimi/ran/random/happy_ws/src/random', 'symlink_install': False, 'test_result_base': None}
+[1.090s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'cmake_args' from command line to 'None'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'cmake_target' from command line to 'None'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'cmake_clean_cache' from command line to 'False'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'cmake_clean_first' from command line to 'False'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'cmake_force_configure' from command line to 'False'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'ament_cmake_args' from command line to 'None'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'catkin_cmake_args' from command line to 'None'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.091s] DEBUG:colcon.colcon_core.verb:Building package 'service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mimi/ran/random/happy_ws/build/service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mimi/ran/random/happy_ws/install/service', 'merge_install': False, 'path': '/home/mimi/ran/random/happy_ws/src/service', 'symlink_install': False, 'test_result_base': None}
+[1.093s] Level 5:colcon.colcon_core.verb:set package 'service_msgs' build argument 'cmake_args' from command line to 'None'
+[1.093s] Level 5:colcon.colcon_core.verb:set package 'service_msgs' build argument 'cmake_target' from command line to 'None'
+[1.093s] Level 5:colcon.colcon_core.verb:set package 'service_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.093s] Level 5:colcon.colcon_core.verb:set package 'service_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.093s] Level 5:colcon.colcon_core.verb:set package 'service_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.093s] Level 5:colcon.colcon_core.verb:set package 'service_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.093s] Level 5:colcon.colcon_core.verb:set package 'service_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.093s] Level 5:colcon.colcon_core.verb:set package 'service_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.093s] Level 5:colcon.colcon_core.verb:set package 'service_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.094s] DEBUG:colcon.colcon_core.verb:Building package 'service_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mimi/ran/random/happy_ws/build/service_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mimi/ran/random/happy_ws/install/service_msgs', 'merge_install': False, 'path': '/home/mimi/ran/random/happy_ws/src/service_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.094s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.097s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.098s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mimi/ran/random/happy_ws/src/random' with build type 'ament_python'
+[1.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('random', 'ament_prefix_path')
+[1.105s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mimi/ran/random/happy_ws/install/random/share/random/hook/ament_prefix_path.ps1'
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mimi/ran/random/happy_ws/install/random/share/random/hook/ament_prefix_path.dsv'
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mimi/ran/random/happy_ws/install/random/share/random/hook/ament_prefix_path.sh'
+[1.108s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.108s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.119s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mimi/ran/random/happy_ws/src/service' with build type 'ament_python'
+[1.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('service', 'ament_prefix_path')
+[1.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mimi/ran/random/happy_ws/install/service/share/service/hook/ament_prefix_path.ps1'
+[1.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mimi/ran/random/happy_ws/install/service/share/service/hook/ament_prefix_path.dsv'
+[1.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mimi/ran/random/happy_ws/install/service/share/service/hook/ament_prefix_path.sh'
+[1.124s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.124s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.143s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mimi/ran/random/happy_ws/src/service_msgs' with build type 'ament_cmake'
+[1.144s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mimi/ran/random/happy_ws/src/service_msgs'
+[1.145s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.145s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.931s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mimi/ran/random/happy_ws/src/random'
+[1.932s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.932s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.702s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mimi/ran/random/happy_ws/src/service'
+[2.703s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.703s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mimi/ran/random/happy_ws/build/service_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mimi/ran/random/happy_ws/src/service_msgs -DCMAKE_INSTALL_PREFIX=/home/mimi/ran/random/happy_ws/install/service_msgs
+[3.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mimi/ran/random/happy_ws/build/service_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mimi/ran/random/happy_ws/src/service_msgs -DCMAKE_INSTALL_PREFIX=/home/mimi/ran/random/happy_ws/install/service_msgs
+[3.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mimi/ran/random/happy_ws/build/service_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/ran/random/happy_ws/build/service_msgs -- -j8 -l8
+[3.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mimi/ran/random/happy_ws/src/random': PYTHONPATH=/home/mimi/ran/random/happy_ws/build/random/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mimi/ran/random/happy_ws/install/random/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/random build --build-base /home/mimi/ran/random/happy_ws/build/random/build install --record /home/mimi/ran/random/happy_ws/build/random/install.log --single-version-externally-managed install_data
+[3.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mimi/ran/random/happy_ws/src/service': PYTHONPATH=/home/mimi/ran/random/happy_ws/build/service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mimi/ran/random/happy_ws/install/service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service build --build-base /home/mimi/ran/random/happy_ws/build/service/build install --record /home/mimi/ran/random/happy_ws/build/service/install.log --single-version-externally-managed install_data
+[3.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mimi/ran/random/happy_ws/build/service_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/ran/random/happy_ws/build/service_msgs -- -j8 -l8
+[3.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mimi/ran/random/happy_ws/build/service_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mimi/ran/random/happy_ws/build/service_msgs
+[3.945s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(service_msgs)
+[3.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mimi/ran/random/happy_ws/build/service_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mimi/ran/random/happy_ws/build/service_msgs
+[3.955s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/service_msgs' for CMake module files
+[3.958s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/service_msgs' for CMake config files
+[3.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_msgs', 'cmake_prefix_path')
+[3.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/hook/cmake_prefix_path.ps1'
+[3.962s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/hook/cmake_prefix_path.dsv'
+[3.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/hook/cmake_prefix_path.sh'
+[3.965s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/service_msgs/bin'
+[3.965s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/service_msgs/lib/pkgconfig/service_msgs.pc'
+[3.966s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/service_msgs/lib/python3.10/site-packages'
+[3.966s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/service_msgs/bin'
+[3.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/package.ps1'
+[3.969s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/package.dsv'
+[3.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/package.sh'
+[3.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/package.bash'
+[3.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/package.zsh'
+[3.977s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mimi/ran/random/happy_ws/install/service_msgs/share/colcon-core/packages/service_msgs)
+[3.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(service_msgs)
+[3.979s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/service_msgs' for CMake module files
+[3.981s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/service_msgs' for CMake config files
+[3.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_msgs', 'cmake_prefix_path')
+[3.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/hook/cmake_prefix_path.ps1'
+[3.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/hook/cmake_prefix_path.dsv'
+[3.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/hook/cmake_prefix_path.sh'
+[3.988s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/service_msgs/bin'
+[3.988s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/service_msgs/lib/pkgconfig/service_msgs.pc'
+[3.989s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/service_msgs/lib/python3.10/site-packages'
+[3.990s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/service_msgs/bin'
+[3.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/package.ps1'
+[3.992s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/package.dsv'
+[3.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/package.sh'
+[3.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/package.bash'
+[3.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/package.zsh'
+[3.999s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mimi/ran/random/happy_ws/install/service_msgs/share/colcon-core/packages/service_msgs)
+[4.623s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/service' for CMake module files
+[4.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mimi/ran/random/happy_ws/src/service' returned '0': PYTHONPATH=/home/mimi/ran/random/happy_ws/build/service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mimi/ran/random/happy_ws/install/service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service build --build-base /home/mimi/ran/random/happy_ws/build/service/build install --record /home/mimi/ran/random/happy_ws/build/service/install.log --single-version-externally-managed install_data
+[4.625s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/service' for CMake config files
+[4.628s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/service/lib'
+[4.629s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/service/bin'
+[4.629s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/service/lib/pkgconfig/service.pc'
+[4.630s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/service/lib/python3.10/site-packages'
+[4.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('service', 'pythonpath')
+[4.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mimi/ran/random/happy_ws/install/service/share/service/hook/pythonpath.ps1'
+[4.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mimi/ran/random/happy_ws/install/service/share/service/hook/pythonpath.dsv'
+[4.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mimi/ran/random/happy_ws/install/service/share/service/hook/pythonpath.sh'
+[4.636s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/service/bin'
+[4.636s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(service)
+[4.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/ran/random/happy_ws/install/service/share/service/package.ps1'
+[4.637s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mimi/ran/random/happy_ws/install/service/share/service/package.dsv'
+[4.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/ran/random/happy_ws/install/service/share/service/package.sh'
+[4.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/ran/random/happy_ws/install/service/share/service/package.bash'
+[4.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/ran/random/happy_ws/install/service/share/service/package.zsh'
+[4.642s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mimi/ran/random/happy_ws/install/service/share/colcon-core/packages/service)
+[4.657s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/random' for CMake module files
+[4.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mimi/ran/random/happy_ws/src/random' returned '0': PYTHONPATH=/home/mimi/ran/random/happy_ws/build/random/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mimi/ran/random/happy_ws/install/random/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/random build --build-base /home/mimi/ran/random/happy_ws/build/random/build install --record /home/mimi/ran/random/happy_ws/build/random/install.log --single-version-externally-managed install_data
+[4.659s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/random' for CMake config files
+[4.661s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/random/lib'
+[4.662s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/random/bin'
+[4.662s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/random/lib/pkgconfig/random.pc'
+[4.663s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/random/lib/python3.10/site-packages'
+[4.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('random', 'pythonpath')
+[4.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mimi/ran/random/happy_ws/install/random/share/random/hook/pythonpath.ps1'
+[4.664s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mimi/ran/random/happy_ws/install/random/share/random/hook/pythonpath.dsv'
+[4.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mimi/ran/random/happy_ws/install/random/share/random/hook/pythonpath.sh'
+[4.668s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/ran/random/happy_ws/install/random/bin'
+[4.669s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(random)
+[4.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/ran/random/happy_ws/install/random/share/random/package.ps1'
+[4.670s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mimi/ran/random/happy_ws/install/random/share/random/package.dsv'
+[4.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/ran/random/happy_ws/install/random/share/random/package.sh'
+[4.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/ran/random/happy_ws/install/random/share/random/package.bash'
+[4.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/ran/random/happy_ws/install/random/share/random/package.zsh'
+[4.674s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mimi/ran/random/happy_ws/install/random/share/colcon-core/packages/random)
+[4.675s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.676s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.676s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.677s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.691s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.692s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.692s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.729s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.730s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mimi/ran/random/happy_ws/install/local_setup.ps1'
+[4.734s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mimi/ran/random/happy_ws/install/_local_setup_util_ps1.py'
+[4.737s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mimi/ran/random/happy_ws/install/setup.ps1'
+[4.739s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mimi/ran/random/happy_ws/install/local_setup.sh'
+[4.741s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mimi/ran/random/happy_ws/install/_local_setup_util_sh.py'
+[4.742s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mimi/ran/random/happy_ws/install/setup.sh'
+[4.745s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mimi/ran/random/happy_ws/install/local_setup.bash'
+[4.747s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mimi/ran/random/happy_ws/install/setup.bash'
+[4.750s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mimi/ran/random/happy_ws/install/local_setup.zsh'
+[4.752s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mimi/ran/random/happy_ws/install/setup.zsh'

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/random/random.egg-info/PKG-INFO
+../../build/random/random.egg-info/SOURCES.txt
+../../build/random/random.egg-info/dependency_links.txt
+../../build/random/random.egg-info/entry_points.txt
+../../build/random/random.egg-info/requires.txt
+../../build/random/random.egg-info/top_level.txt
+../../build/random/random.egg-info/zip-safe
+random_nomber/__init__.py
+random_nomber/random.py
+resource/random
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

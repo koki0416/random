@@ -1,0 +1,15 @@
+/home/mimi/ran/random/happy_ws/install/service_msgs/share/ament_index/resource_index/package_run_dependencies/service_msgs
+/home/mimi/ran/random/happy_ws/install/service_msgs/share/ament_index/resource_index/parent_prefix_path/service_msgs
+/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/environment/ament_prefix_path.sh
+/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/environment/ament_prefix_path.dsv
+/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/environment/path.sh
+/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/environment/path.dsv
+/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/local_setup.bash
+/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/local_setup.sh
+/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/local_setup.zsh
+/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/local_setup.dsv
+/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/package.dsv
+/home/mimi/ran/random/happy_ws/install/service_msgs/share/ament_index/resource_index/packages/service_msgs
+/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgsConfig.cmake
+/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/cmake/service_msgsConfig-version.cmake
+/home/mimi/ran/random/happy_ws/install/service_msgs/share/service_msgs/package.xml
